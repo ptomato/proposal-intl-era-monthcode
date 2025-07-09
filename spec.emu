@@ -454,6 +454,10 @@ contributors: Google, Ecma International
               See also ISOWeekOfYear.
             </p>
             <p>The Year-Week Record contains *undefined* in [[Week]] and [[Year]] field for calendars that do not have a well-defined week calendar system.</p>
+            <emu-note>
+              Currently, of the calendars supported in this specification, only *"iso8601"* has a well-defined, locale-independent week calendar system.
+              For all other calendars, the Year-Week Record fields are *undefined*.
+            </emu-note>
           </td>
         </tr>
         <tr>
