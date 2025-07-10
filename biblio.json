@@ -9,6 +9,26 @@
             },
             {
                 "type": "op",
+                "aoid": "BalanceISODate",
+                "id": "sec-temporal-balanceisodate"
+            },
+            {
+                "type": "op",
+                "aoid": "BalanceISOYearMonth",
+                "id": "sec-temporal-balanceisoyearmonth"
+            },
+            {
+                "type": "op",
+                "aoid": "ISODateWithinLimits",
+                "id": "sec-temporal-isodatewithinlimits"
+            },
+            {
+                "type": "op",
+                "aoid": "RegulateISODate",
+                "id": "sec-temporal-regulateisodate"
+            },
+            {
+                "type": "op",
                 "aoid": "TemporalCalendarExtraFields",
                 "id": "sec-temporal-calendarextrafields"
             },
